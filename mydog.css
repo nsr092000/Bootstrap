@@ -1,0 +1,87 @@
+.navbarclass{
+    cursor: pointer;
+}
+a.navbar-brand.navbarclass{
+font-size: 40px;
+font-family: cursive;
+margin-left: 100px;
+margin-top: 20px;
+}
+
+.navbarback{
+    background-color: #ff4c68;
+}
+
+
+
+.buttons{
+width: 100px;
+margin-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #2e1818b3;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.heading h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.image{
+
+    height: 400px;
+
+}
+
+
+.heading1 h1{
+    font-weight: 600;
+    text-align: center;
+}
+
+.heading1 p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.spacing{
+    margin-top: 100px;
+}
+
+h1 i{
+   font-size: 80px; 
+   color: #ff4c68;
+}
+
+.circleimage{
+    background-color: antiquewhite;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.headingpr{
+    display: flex;
+    justify-content: center;
+}
+
+.headingpr h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.socialmedia i{
+    font-size: 35px;
+    margin-left: 45px;
+}
+
+@media only screen and (max-width:900px){
+
+    .headingpr h3{
+        font-size: 15px;
+    }
+}
