@@ -31,9 +31,10 @@ margin-left: 10px;
 }
 
 .image{
-
+   
     height: 400px;
-
+   
+    
 }
 
 
@@ -48,8 +49,11 @@ margin-left: 10px;
 }
 
 .spacing{
-    margin-top: 100px;
+    padding-top: 100px;
+    background-color: white;
 }
+
+
 
 h1 i{
    font-size: 80px; 
@@ -84,4 +88,24 @@ h1 i{
     .headingpr h3{
         font-size: 15px;
     }
+}
+
+@media only screen and (min-width:1300px){
+
+    .image{
+
+        height: 250px;
+        transform: rotate(20deg) scale(3,4);
+        padding-top: 100px;
+        position: relative;
+        z-index: 2;
+        
+    }
+
+    .hideimage{
+        position : relative;
+        z-index: 3;
+    }
+    
+
 }
